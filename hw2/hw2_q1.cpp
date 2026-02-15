@@ -42,10 +42,10 @@ int main() {
         cout << "\nGravitational Force F = " << result << " dynes" << endl;
         cout << "===================================================\n" << endl;
         
-        cout << "Continue? (yes/no): ";
+        cout << "Continue? (y/n): ";
         cin >> ch;
         
-    } while (ch == 'yes' || ch == 'YES' || ch == 'Yes');
+    } while (ch == 'y' || ch == 'Y');
     
     cout << "\nThanks for using!" << endl;
     
